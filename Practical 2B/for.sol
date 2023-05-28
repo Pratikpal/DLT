@@ -8,6 +8,7 @@ contract DemoContract{
         for (i=0; i !=5; i++){
             storedData = storedData + i;
         }
+    }
     function get() public view returns (uint){
         return storedData;
     }
