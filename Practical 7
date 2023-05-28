@@ -1,0 +1,6 @@
+hash = “hash generated in Remix”
+
+ethereum.enable().then(console.log)
+account = “your MetaMask account”
+
+ethereum.request({method: “personal_sign”, params: [account, hash]}).then(console.log)
